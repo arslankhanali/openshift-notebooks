@@ -8,7 +8,7 @@ import transformers
 from peft import PeftModel
 
 #get your HF token :)
-token = "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"
+token = "token" #Put token here
 HfFolder.save_token(token)
 
 #model_id = "meta-llama/Llama-2-7b-chat-hf" ## "Trelis/Llama-2-7b-chat-hf-sharded-bf16" is an alternative if you don't have access via Meta on HuggingFace
